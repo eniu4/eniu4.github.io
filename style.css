@@ -1,1 +1,59 @@
+body{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+h1{
+    color: rgb(252, 236, 216);
+}
+
+a{
+    color: rgb(252, 236, 216);
+}
+
+code{
+    font-size: 17.5;
+    color: rgb(161, 252, 210)
+}
+button {
+    z-index: 2;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #0078e9;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: #0078e9;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+  }
+  button:hover {
+    z-index: 2;
+    padding: 18px 28px;
+    border: none;
+    border-radius: 5px;
+   /* box-shadow: 0 0 15px #00959b;*/
+    font-size: 35px;
+    background-color: #005fb8;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    opacity: 0.5;
+  }
+
+form{
+    color: #0078e9;
+}
+
+#comment-box, #post {
+    border: none;
+    border-radius: 5px;
+}
+#post:hover{
+    background-color: deeppink;
+}
+
+hr{
+    border: none;
+    border-bottom: 5px dotted #00bdc5;
+  }
